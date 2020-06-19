@@ -1,0 +1,153 @@
+{
+  "uid" : "3ec4d028f1779977",
+  "name" : "HeaderSearct",
+  "fullName" : "HeaderClassTest.HeaderSearct",
+  "historyId" : "c27c0345b85e892def9976419661b85",
+  "time" : {
+    "start" : 1592400068758,
+    "stop" : 1592400078478,
+    "duration" : 9720
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Закрытие попапа",
+      "time" : {
+        "start" : 1592400075277,
+        "stop" : 1592400076410,
+        "duration" : 1133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие попапа 'Я согласен'",
+      "time" : {
+        "start" : 1592400076413,
+        "stop" : 1592400076661,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка поиска",
+      "time" : {
+        "start" : 1592400076662,
+        "stop" : 1592400078466,
+        "duration" : 1804
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вставить в поле поиска слово 'Молоко'",
+        "time" : {
+          "start" : 1592400076663,
+          "stop" : 1592400077978,
+          "duration" : 1315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Нажать на кнопку 'Поиск'",
+        "time" : {
+          "start" : 1592400077980,
+          "stop" : 1592400078302,
+          "duration" : 322
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверка url Поиска",
+        "time" : {
+          "start" : 1592400078302,
+          "stop" : 1592400078466,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HeaderSearct"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "host",
+    "value" : "Greensight-007"
+  }, {
+    "name" : "thread",
+    "value" : "17624@Greensight-007.main(1)"
+  }, {
+    "name" : "owner",
+    "value" : "Большакова Полина Денисовна"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Большакова Полина Денисовна",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ec4d028f1779977.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,121 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Greensight-007",
+    "children" : [ {
+      "name" : "7248@Greensight-007.main(1)",
+      "children" : [ {
+        "name" : "HeaderLogo",
+        "uid" : "1f90803a1998f58e",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402748544,
+          "stop" : 1592402752349,
+          "duration" : 3805
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "HeadermoveCatalog",
+        "uid" : "ce4ae0aeaefa3ed0",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402733570,
+          "stop" : 1592402744720,
+          "duration" : 11150
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "HeaderSearct",
+        "uid" : "889699c0457927ef",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402725204,
+          "stop" : 1592402733417,
+          "duration" : 8213
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "HeaderLK",
+        "uid" : "419ccb2f49f91dab",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592402744731,
+          "stop" : 1592402748537,
+          "duration" : 3806
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "MainBanner",
+        "uid" : "b50e226d506645a1",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402803277,
+          "stop" : 1592402806590,
+          "duration" : 3313
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "HeaderBasket",
+        "uid" : "2b27f5935e3b9e6d",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402755997,
+          "stop" : 1592402759424,
+          "duration" : 3427
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "HeaderDeliveryAddress",
+        "uid" : "142139716fe87dad",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402752356,
+          "stop" : 1592402755985,
+          "duration" : 3629
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "MainAddressDelivery",
+        "uid" : "685ae6643833d8d3",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402796596,
+          "stop" : 1592402803275,
+          "duration" : 6679
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "MainCategori1",
+        "uid" : "6b16c78c2bda8911",
+        "parentUid" : "6fb6575b85289e5cc1251afe13f8a302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592402765360,
+          "stop" : 1592402796591,
+          "duration" : 31231
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fb6575b85289e5cc1251afe13f8a302"
+    } ],
+    "uid" : "d56f64621643aa127591f12559ea5817"
+  } ]
+}

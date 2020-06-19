@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "b1457253458252bb4e05b78486c63f52",
+    "name" : "HeaderClassTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "6b256afe1e5b6b58c4a5ebaf205b8ff1",
+    "name" : "MainClassTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

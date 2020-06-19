@@ -1,0 +1,138 @@
+{
+  "uid" : "7f73c327504e64d7",
+  "name" : "HeaderLogo",
+  "fullName" : "HeaderClassTest.HeaderLogo",
+  "historyId" : "ea82696da13e3704b28be3eb2fc7aaad",
+  "time" : {
+    "start" : 1592400097073,
+    "stop" : 1592400101241,
+    "duration" : 4168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Закрытие попапа",
+      "time" : {
+        "start" : 1592400100427,
+        "stop" : 1592400100869,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие попапа 'Я согласен'",
+      "time" : {
+        "start" : 1592400100869,
+        "stop" : 1592400101018,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка Лого",
+      "time" : {
+        "start" : 1592400101018,
+        "stop" : 1592400101241,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1592400101018,
+          "stop" : 1592400101219,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверка url Главной страницы",
+        "time" : {
+          "start" : 1592400101220,
+          "stop" : 1592400101241,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HeaderLogo"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "host",
+    "value" : "Greensight-007"
+  }, {
+    "name" : "thread",
+    "value" : "17624@Greensight-007.main(1)"
+  }, {
+    "name" : "owner",
+    "value" : "Большакова Полина Денисовна"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Большакова Полина Денисовна",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f73c327504e64d7.json",
+  "parameterValues" : [ ]
+}

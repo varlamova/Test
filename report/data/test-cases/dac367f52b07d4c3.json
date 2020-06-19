@@ -1,0 +1,156 @@
+{
+  "uid" : "dac367f52b07d4c3",
+  "name" : "HeaderBasket",
+  "fullName" : "HeaderClassTest.HeaderBasket",
+  "historyId" : "c141d11b33976ffa27d1615469aa241b",
+  "time" : {
+    "start" : 1592400105544,
+    "stop" : 1592400109550,
+    "duration" : 4006
+  },
+  "status" : "failed",
+  "statusMessage" : "Это не страница корзины",
+  "statusTrace" : "java.lang.AssertionError: Это не страница корзины\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlBasket_aroundBody2(Utils.java:46)\r\n\tat Pages.Header.Utils$AjcClosure3.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlBasket(Utils.java:44)\r\n\tat Pages.Header.Header.Basket_aroundBody0(Header.java:30)\r\n\tat Pages.Header.Header$AjcClosure1.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.Basket(Header.java:29)\r\n\tat HeaderClassTest.HeaderBasket(HeaderClassTest.java:69)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Это не страница корзины",
+    "statusTrace" : "java.lang.AssertionError: Это не страница корзины\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlBasket_aroundBody2(Utils.java:46)\r\n\tat Pages.Header.Utils$AjcClosure3.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlBasket(Utils.java:44)\r\n\tat Pages.Header.Header.Basket_aroundBody0(Header.java:30)\r\n\tat Pages.Header.Header$AjcClosure1.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.Basket(Header.java:29)\r\n\tat HeaderClassTest.HeaderBasket(HeaderClassTest.java:69)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+    "steps" : [ {
+      "name" : "Закрытие попапа",
+      "time" : {
+        "start" : 1592400108239,
+        "stop" : 1592400108657,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие попапа 'Я согласен'",
+      "time" : {
+        "start" : 1592400108657,
+        "stop" : 1592400108822,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка корзины",
+      "time" : {
+        "start" : 1592400108822,
+        "stop" : 1592400109101,
+        "duration" : 279
+      },
+      "status" : "failed",
+      "statusMessage" : "Это не страница корзины",
+      "statusTrace" : "java.lang.AssertionError: Это не страница корзины\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlBasket_aroundBody2(Utils.java:46)\r\n\tat Pages.Header.Utils$AjcClosure3.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlBasket(Utils.java:44)\r\n\tat Pages.Header.Header.Basket_aroundBody0(Header.java:30)\r\n\tat Pages.Header.Header$AjcClosure1.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.Basket(Header.java:29)\r\n\tat HeaderClassTest.HeaderBasket(HeaderClassTest.java:69)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+      "steps" : [ {
+        "name" : "Нажатие на иконку 'Корзина'",
+        "time" : {
+          "start" : 1592400108822,
+          "stop" : 1592400109055,
+          "duration" : 233
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверка url корзины",
+        "time" : {
+          "start" : 1592400109056,
+          "stop" : 1592400109101,
+          "duration" : 45
+        },
+        "status" : "failed",
+        "statusMessage" : "Это не страница корзины",
+        "statusTrace" : "java.lang.AssertionError: Это не страница корзины\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlBasket_aroundBody2(Utils.java:46)\r\n\tat Pages.Header.Utils$AjcClosure3.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlBasket(Utils.java:44)\r\n\tat Pages.Header.Header.Basket_aroundBody0(Header.java:30)\r\n\tat Pages.Header.Header$AjcClosure1.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.Basket(Header.java:29)\r\n\tat HeaderClassTest.HeaderBasket(HeaderClassTest.java:69)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ae512a36f7a5b67c",
+      "name" : "Screenshot on failure",
+      "source" : "ae512a36f7a5b67c.png",
+      "type" : "image/png",
+      "size" : 58369
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HeaderBasket"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "host",
+    "value" : "Greensight-007"
+  }, {
+    "name" : "thread",
+    "value" : "17624@Greensight-007.main(1)"
+  }, {
+    "name" : "owner",
+    "value" : "Большакова Полина Денисовна"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Большакова Полина Денисовна",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dac367f52b07d4c3.json",
+  "parameterValues" : [ ]
+}

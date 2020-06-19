@@ -1,0 +1,171 @@
+{
+  "uid" : "4b7d4ec73b883f35",
+  "name" : "HeaderLK",
+  "fullName" : "HeaderClassTest.HeaderLK",
+  "historyId" : "a3eedc1762e4b51d4e0323b062c90cc6",
+  "time" : {
+    "start" : 1592400092453,
+    "stop" : 1592400097066,
+    "duration" : 4613
+  },
+  "status" : "failed",
+  "statusMessage" : "Это не страница ЛК",
+  "statusTrace" : "java.lang.AssertionError: Это не страница ЛК\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlLK_aroundBody12(Utils.java:83)\r\n\tat Pages.Header.Utils$AjcClosure13.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlLK(Utils.java:81)\r\n\tat Pages.Header.Header.LK_aroundBody4(Header.java:45)\r\n\tat Pages.Header.Header$AjcClosure5.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.LK(Header.java:43)\r\n\tat HeaderClassTest.HeaderLK(HeaderClassTest.java:75)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Это не страница ЛК",
+    "statusTrace" : "java.lang.AssertionError: Это не страница ЛК\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlLK_aroundBody12(Utils.java:83)\r\n\tat Pages.Header.Utils$AjcClosure13.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlLK(Utils.java:81)\r\n\tat Pages.Header.Header.LK_aroundBody4(Header.java:45)\r\n\tat Pages.Header.Header$AjcClosure5.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.LK(Header.java:43)\r\n\tat HeaderClassTest.HeaderLK(HeaderClassTest.java:75)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+    "steps" : [ {
+      "name" : "Закрытие попапа",
+      "time" : {
+        "start" : 1592400095382,
+        "stop" : 1592400096044,
+        "duration" : 662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие попапа 'Я согласен'",
+      "time" : {
+        "start" : 1592400096044,
+        "stop" : 1592400096200,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка ЛК",
+      "time" : {
+        "start" : 1592400096201,
+        "stop" : 1592400096550,
+        "duration" : 349
+      },
+      "status" : "failed",
+      "statusMessage" : "Это не страница ЛК",
+      "statusTrace" : "java.lang.AssertionError: Это не страница ЛК\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlLK_aroundBody12(Utils.java:83)\r\n\tat Pages.Header.Utils$AjcClosure13.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlLK(Utils.java:81)\r\n\tat Pages.Header.Header.LK_aroundBody4(Header.java:45)\r\n\tat Pages.Header.Header$AjcClosure5.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.LK(Header.java:43)\r\n\tat HeaderClassTest.HeaderLK(HeaderClassTest.java:75)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+      "steps" : [ {
+        "name" : "Проверка текста у 'ЛК'",
+        "time" : {
+          "start" : 1592400096201,
+          "stop" : 1592400096242,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Нажатие на иконку ЛК",
+        "time" : {
+          "start" : 1592400096243,
+          "stop" : 1592400096480,
+          "duration" : 237
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверка url ЛК",
+        "time" : {
+          "start" : 1592400096481,
+          "stop" : 1592400096550,
+          "duration" : 69
+        },
+        "status" : "failed",
+        "statusMessage" : "Это не страница ЛК",
+        "statusTrace" : "java.lang.AssertionError: Это не страница ЛК\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat Pages.Header.Utils.urlLK_aroundBody12(Utils.java:83)\r\n\tat Pages.Header.Utils$AjcClosure13.run(Utils.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Utils.urlLK(Utils.java:81)\r\n\tat Pages.Header.Header.LK_aroundBody4(Header.java:45)\r\n\tat Pages.Header.Header$AjcClosure5.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat Pages.Header.Header.LK(Header.java:43)\r\n\tat HeaderClassTest.HeaderLK(HeaderClassTest.java:75)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)\r\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4a41eb16c7c97480",
+      "name" : "Screenshot on failure",
+      "source" : "4a41eb16c7c97480.png",
+      "type" : "image/png",
+      "size" : 57832
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HeaderLK"
+  }, {
+    "name" : "suite",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "host",
+    "value" : "Greensight-007"
+  }, {
+    "name" : "thread",
+    "value" : "17624@Greensight-007.main(1)"
+  }, {
+    "name" : "owner",
+    "value" : "Большакова Полина Денисовна"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Большакова Полина Денисовна",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b7d4ec73b883f35.json",
+  "parameterValues" : [ ]
+}
