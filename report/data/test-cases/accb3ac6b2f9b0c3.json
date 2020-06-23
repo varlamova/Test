@@ -1,12 +1,12 @@
 {
-  "uid" : "b50e226d506645a1",
-  "name" : "MainBanner",
+  "uid" : "accb3ac6b2f9b0c3",
+  "name" : "Баннер на главной",
   "fullName" : "MainClassTest.MainBanner",
   "historyId" : "7acf92ee757bca197b8e7a525a674ee1",
   "time" : {
-    "start" : 1592402803277,
-    "stop" : 1592402806590,
-    "duration" : 3313
+    "start" : 1592911864659,
+    "stop" : 1592911869285,
+    "duration" : 4626
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,70 +16,70 @@
     "steps" : [ {
       "name" : "Закрытие попапа",
       "time" : {
-        "start" : 1592402806043,
-        "stop" : 1592402806400,
-        "duration" : 357
+        "start" : 1592911868745,
+        "stop" : 1592911869133,
+        "duration" : 388
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Закрытие попапа 'Я согласен'",
       "time" : {
-        "start" : 1592402806400,
-        "stop" : 1592402806552,
-        "duration" : 152
+        "start" : 1592911869133,
+        "stop" : 1592911869247,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка отображения баннера",
       "time" : {
-        "start" : 1592402806552,
-        "stop" : 1592402806590,
+        "start" : 1592911869247,
+        "stop" : 1592911869285,
         "duration" : 38
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Проверка отображения баннера",
         "time" : {
-          "start" : 1592402806553,
-          "stop" : 1592402806590,
-          "duration" : 37
+          "start" : 1592911869247,
+          "stop" : 1592911869285,
+          "duration" : 38
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -93,13 +93,13 @@
     "value" : "MainBanner"
   }, {
     "name" : "suite",
-    "value" : "MainClassTest"
+    "value" : "Главная"
   }, {
     "name" : "host",
     "value" : "Greensight-007"
   }, {
     "name" : "thread",
-    "value" : "7248@Greensight-007.main(1)"
+    "value" : "18196@Greensight-007.main(1)"
   }, {
     "name" : "owner",
     "value" : "Большакова Полина Денисовна"
@@ -118,6 +118,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b50e226d506645a1.json",
+  "source" : "accb3ac6b2f9b0c3.json",
   "parameterValues" : [ ]
 }

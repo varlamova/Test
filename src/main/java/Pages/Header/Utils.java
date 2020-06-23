@@ -1,6 +1,6 @@
 package Pages.Header;
 import Utils.Global;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;

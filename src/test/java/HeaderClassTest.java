@@ -3,8 +3,8 @@ import Pages.Home.Home;
 import Utils.Browser;
 import Utils.Global;
 import Utils.Popup;
-import io.qameta.allure.Attachment;
-import io.qameta.allure.Owner;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.*;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
@@ -12,6 +12,7 @@ import org.openqa.selenium.*;
 
 import java.util.concurrent.TimeUnit;
 
+@DisplayName("Хедер")
 public class HeaderClassTest {
     public static WebDriver driver;
     public Header header;
@@ -64,41 +65,46 @@ public class HeaderClassTest {
 
     //////////////////////////Хедер////////////////////////////////
     @Test
+    @DisplayName("Корзина в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
     public void HeaderBasket() {
         header.Basket();
     }
 
     @Test
+    @Link(name = "Ссылка на страницу ЛК", url = "https://dostavka.auchan.ru/auth")
+    @DisplayName("ЛК в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
     public void HeaderLK() {
         header.LK();
     }
 
     @Test
+    @DisplayName("Лого в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
     public void HeaderLogo() {
         header.Logo();
     }
 
     @Test
+    @DisplayName("Поиск в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
-    public void HeaderSearct() throws InterruptedException {
-        header.Searct();
-    }
+    public void HeaderSearct() throws InterruptedException { header.Searct(); }
 
     @Test
+    @DisplayName("Адрес доставки в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
     public void HeaderDeliveryAddress() {
         header.DeliveryAddress();
     }
 
     @Test
+    @Severity(SeverityLevel.MINOR)
+    @DisplayName("Каталог в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
     public void HeadermoveCatalog() throws InterruptedException {
         header.moveCatalog();
     }
-
 
     @AfterClass
     public static void tearDownClass() {

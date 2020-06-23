@@ -3,15 +3,15 @@ import Pages.Home.Home;
 import Utils.Browser;
 import Utils.Global;
 import Utils.Popup;
-import io.qameta.allure.Attachment;
-import io.qameta.allure.Owner;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.*;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.*;
-
 import java.util.concurrent.TimeUnit;
 
+@DisplayName("Главная")
 public class MainClassTest {
 
         public static WebDriver driver;
@@ -65,19 +65,24 @@ public class MainClassTest {
 
         //////////////////////////Главная страница////////////////////////////////
         @Test
+        @DisplayName("Баннер на главной")
         @Owner(value = "Большакова Полина Денисовна")
         public void MainBanner() {
             main.banner();
         }
 
         @Test
+        @DisplayName("Адрес доставки на главной")
         @Owner(value = "Большакова Полина Денисовна")
         public void MainAddressDelivery() throws InterruptedException {
             main.inputAddressDelivery();
         }
 
         @Test
+        @Flaky
+        @Severity(SeverityLevel.MINOR)
         @Owner(value = "Большакова Полина Денисовна")
+        @DisplayName("Категории на главной")
         public void MainCategori1() throws InterruptedException {
             main.clicklinkCategori1();
         }

@@ -1,12 +1,12 @@
 {
-  "uid" : "142139716fe87dad",
-  "name" : "HeaderDeliveryAddress",
+  "uid" : "3813dd6c1f97de88",
+  "name" : "Адрес доставки в Хедере",
   "fullName" : "HeaderClassTest.HeaderDeliveryAddress",
   "historyId" : "4ce3dc9912df315a8f870e81bdf48a63",
   "time" : {
-    "start" : 1592402752356,
-    "stop" : 1592402755985,
-    "duration" : 3629
+    "start" : 1592911814154,
+    "stop" : 1592911818644,
+    "duration" : 4490
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,85 +16,85 @@
     "steps" : [ {
       "name" : "Закрытие попапа",
       "time" : {
-        "start" : 1592402754828,
-        "stop" : 1592402755456,
-        "duration" : 628
+        "start" : 1592911818192,
+        "stop" : 1592911818319,
+        "duration" : 127
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Закрытие попапа 'Я согласен'",
       "time" : {
-        "start" : 1592402755456,
-        "stop" : 1592402755669,
-        "duration" : 213
+        "start" : 1592911818319,
+        "stop" : 1592911818441,
+        "duration" : 122
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка адреса доставки",
       "time" : {
-        "start" : 1592402755670,
-        "stop" : 1592402755985,
-        "duration" : 315
+        "start" : 1592911818442,
+        "stop" : 1592911818643,
+        "duration" : 201
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Нажать на ссылку 'Адрес доставки'",
         "time" : {
-          "start" : 1592402755671,
-          "stop" : 1592402755861,
-          "duration" : 190
+          "start" : 1592911818442,
+          "stop" : 1592911818586,
+          "duration" : 144
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Проверка названия адреса доставки",
         "time" : {
-          "start" : 1592402755861,
-          "stop" : 1592402755985,
-          "duration" : 124
+          "start" : 1592911818586,
+          "stop" : 1592911818643,
+          "duration" : 57
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 2,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 5,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -108,13 +108,13 @@
     "value" : "HeaderDeliveryAddress"
   }, {
     "name" : "suite",
-    "value" : "HeaderClassTest"
+    "value" : "Хедер"
   }, {
     "name" : "host",
     "value" : "Greensight-007"
   }, {
     "name" : "thread",
-    "value" : "7248@Greensight-007.main(1)"
+    "value" : "18196@Greensight-007.main(1)"
   }, {
     "name" : "owner",
     "value" : "Большакова Полина Денисовна"
@@ -133,6 +133,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "142139716fe87dad.json",
+  "source" : "3813dd6c1f97de88.json",
   "parameterValues" : [ ]
 }

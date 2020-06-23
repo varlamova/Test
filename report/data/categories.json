@@ -6,14 +6,14 @@
     "children" : [ {
       "name" : "Это не страница ЛК",
       "children" : [ {
-        "name" : "HeaderLK",
-        "uid" : "419ccb2f49f91dab",
+        "name" : "ЛК в Хедере",
+        "uid" : "bb56686c44bb0c2b",
         "parentUid" : "4c21743528c44b95021a6efe15a385b5",
         "status" : "failed",
         "time" : {
-          "start" : 1592402744731,
-          "stop" : 1592402748537,
-          "duration" : 3806
+          "start" : 1592911804116,
+          "stop" : 1592911810080,
+          "duration" : 5964
         },
         "flaky" : false,
         "parameters" : [ ]

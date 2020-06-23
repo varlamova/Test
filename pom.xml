@@ -88,6 +88,7 @@
                 <version>2.9</version>
                 <configuration>
                     <reportVersion>2.6.0</reportVersion>
+                    <reportDirectory>${project.basedir}/report</reportDirectory>
                 </configuration>
             </plugin>
             <plugin>
