@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Это не страница ЛК",
+      "children" : [ {
+        "name" : "ЛК в Хедере",
+        "uid" : "b658d7de7355dc07",
+        "parentUid" : "4c21743528c44b95021a6efe15a385b5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593102956796,
+          "stop" : 1593102960353,
+          "duration" : 3557
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c21743528c44b95021a6efe15a385b5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Поиск в Хедере",
+    "uid" : "6b2481e8d1d98ca1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593102939337,
+      "stop" : 1593102945623,
+      "duration" : 6286
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Каталог в Хедере",
+    "uid" : "d0fd3b0e384782bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593102945849,
+      "stop" : 1593102956786,
+      "duration" : 10937
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ЛК в Хедере",
+    "uid" : "b658d7de7355dc07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1593102956796,
+      "stop" : 1593102960353,
+      "duration" : 3557
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Лого в Хедере",
+    "uid" : "b204ca3011531475",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593102960359,
+      "stop" : 1593102963208,
+      "duration" : 2849
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Адрес доставки в Хедере",
+    "uid" : "aef9284cbe017c86",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593102963213,
+      "stop" : 1593102966190,
+      "duration" : 2977
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Корзина в Хедере",
+    "uid" : "fa7885d7aa619584",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593102966192,
+      "stop" : 1593102972164,
+      "duration" : 5972
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Категории на главной",
+    "uid" : "cb5e048c5c7938af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593102978242,
+      "stop" : 1593103000607,
+      "duration" : 22365
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Адрес доставки на главной",
+    "uid" : "9475d1196abe3a72",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593103000612,
+      "stop" : 1593103006775,
+      "duration" : 6163
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Баннер на главной",
+    "uid" : "ac530e01273365b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593103006781,
+      "stop" : 1593103009681,
+      "duration" : 2900
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
