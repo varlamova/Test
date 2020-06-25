@@ -1,4 +1,5 @@
 package Pages.Header;
+import Utils.API;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,10 +9,12 @@ public class Header {
     private WebDriver driver;
     private Actions actions;
     private Utils utils;
+    public API api;
 
     public Header(WebDriver driver){
         this.driver = driver;
         utils = new Utils(driver);
+        api = new API(driver);
     }
 
     ///////////////////////////////Все объекты Хедера/////////////////////////////////
@@ -28,6 +31,7 @@ public class Header {
     public void Basket() {
         utils.clickBasket();
         utils.urlBasket();
+        api.testGetSingleUserProgrammatic();
     }
 
     ///////////////////////////////Адрес доставки/////////////////////////////////

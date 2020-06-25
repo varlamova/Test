@@ -1,5 +1,6 @@
 import Pages.Header.Header;
 import Pages.Home.Home;
+import Utils.API;
 import Utils.Browser;
 import Utils.Global;
 import Utils.Popup;
@@ -18,8 +19,8 @@ public class MainClassTest {
         public Header header;
         public Popup popup;
         public Home main;
-        private Browser browserClose;
         public Global global;
+        public API api;
 
         @BeforeClass
         public static void setup() {
@@ -39,7 +40,7 @@ public class MainClassTest {
             popup = new Popup(driver);
             main = new Home(driver);
             global = new Global(driver);
-            browserClose = new Browser(driver);
+            api = new API(driver);
             popup.clickClosePopup();
             popup.clickCloseIAgree();
         }
