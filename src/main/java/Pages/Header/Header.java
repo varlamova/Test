@@ -10,11 +10,14 @@ public class Header {
     private Actions actions;
     private Utils utils;
     public API api;
+    public Pages.Categori1.Utils utilsCategori;
 
     public Header(WebDriver driver){
         this.driver = driver;
         utils = new Utils(driver);
         api = new API(driver);
+        utilsCategori = new Pages.Categori1.Utils(driver);
+
     }
 
     ///////////////////////////////Все объекты Хедера/////////////////////////////////
@@ -28,10 +31,13 @@ public class Header {
 
     ///////////////////////////////Корзина/////////////////////////////////
     @Step("Проверка корзины")
-    public void Basket() {
+    public void Basket() throws InterruptedException {
+        utilsCategori.clickToCategoriFromMain();
+        utilsCategori.clickToProduct();
         utils.clickBasket();
         utils.urlBasket();
-        api.testGetSingleUserProgrammatic();
+        api.testGetTotalCountCart();
+        api.testPutProductt();
     }
 
     ///////////////////////////////Адрес доставки/////////////////////////////////
@@ -62,6 +68,7 @@ public class Header {
         utils.setTextSearct();
         utils.clickSearch();
         utils.urlSearch();
+        api.testGetStatusCart();
     }
 
     ///////////////////////////////Каталог/////////////////////////////////

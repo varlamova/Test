@@ -12,7 +12,7 @@ import org.openqa.selenium.*;
 import java.util.concurrent.TimeUnit;
 
 @DisplayName("Хедер")
-public class HeaderClassTest {
+    public class HeaderClassTest {
     public static WebDriver driver;
     public Header header;
     public Popup popup;
@@ -66,7 +66,7 @@ public class HeaderClassTest {
     @Test
     @DisplayName("Корзина в Хедере")
     @Owner(value = "Большакова Полина Денисовна")
-    public void HeaderBasket() {
+    public void HeaderBasket()throws InterruptedException {
         header.Basket();
     }
 

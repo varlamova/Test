@@ -7,13 +7,13 @@
       "name" : "Это не страница ЛК",
       "children" : [ {
         "name" : "ЛК в Хедере",
-        "uid" : "b658d7de7355dc07",
+        "uid" : "feabcf2d552586e3",
         "parentUid" : "4c21743528c44b95021a6efe15a385b5",
         "status" : "failed",
         "time" : {
-          "start" : 1593102956796,
-          "stop" : 1593102960353,
-          "duration" : 3557
+          "start" : 1593176890587,
+          "stop" : 1593176894952,
+          "duration" : 4365
         },
         "flaky" : false,
         "parameters" : [ ]

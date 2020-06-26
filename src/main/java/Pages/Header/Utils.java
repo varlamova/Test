@@ -13,6 +13,7 @@ public class Utils<actions> {
     private WebDriver driver;
     private Actions actions;
     public Global global;
+    public static String searctName = "Молоко";
 
     public Utils(WebDriver driver) {
         this.driver = driver;
@@ -104,7 +105,7 @@ public class Utils<actions> {
         driver.findElement(inputSearch).click();
         Thread.sleep(1000);
         driver.findElement(inputSearch).clear();
-        driver.findElement(inputSearch).sendKeys("Молоко");
+        driver.findElement(inputSearch).sendKeys(searctName);
 
     }
 

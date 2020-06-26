@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb5e048c5c7938af",
+      "uid" : "a976962f0322752f",
       "status" : "passed",
       "time" : {
-        "start" : 1593102978242,
-        "stop" : 1593103000607,
-        "duration" : 22365
+        "start" : 1593176917720,
+        "stop" : 1593176944400,
+        "duration" : 26680
       }
     } ]
   },
@@ -28,31 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fa7885d7aa619584",
+      "uid" : "9f4df57395464296",
       "status" : "passed",
       "time" : {
-        "start" : 1593102966192,
-        "stop" : 1593102972164,
-        "duration" : 5972
-      }
-    } ]
-  },
-  "ea82696da13e3704b28be3eb2fc7aaad" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b204ca3011531475",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593102960359,
-        "stop" : 1593102963208,
-        "duration" : 2849
+        "start" : 1593176902474,
+        "stop" : 1593176911752,
+        "duration" : 9278
       }
     } ]
   },
@@ -66,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9475d1196abe3a72",
+      "uid" : "3986c94ebf5362a5",
       "status" : "passed",
       "time" : {
-        "start" : 1593103000612,
-        "stop" : 1593103006775,
-        "duration" : 6163
+        "start" : 1593176944411,
+        "stop" : 1593176956140,
+        "duration" : 11729
       }
     } ]
   },
@@ -85,12 +66,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aef9284cbe017c86",
+      "uid" : "2b1cb7cdfcc33362",
       "status" : "passed",
       "time" : {
-        "start" : 1593102963213,
-        "stop" : 1593102966190,
-        "duration" : 2977
+        "start" : 1593176898678,
+        "stop" : 1593176902467,
+        "duration" : 3789
+      }
+    } ]
+  },
+  "ea82696da13e3704b28be3eb2fc7aaad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad83fd8170a1d9e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593176894958,
+        "stop" : 1593176898674,
+        "duration" : 3716
       }
     } ]
   },
@@ -104,32 +104,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b658d7de7355dc07",
+      "uid" : "feabcf2d552586e3",
       "status" : "failed",
       "statusDetails" : "Это не страница ЛК",
       "time" : {
-        "start" : 1593102956796,
-        "stop" : 1593102960353,
-        "duration" : 3557
-      }
-    } ]
-  },
-  "7acf92ee757bca197b8e7a525a674ee1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ac530e01273365b5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593103006781,
-        "stop" : 1593103009681,
-        "duration" : 2900
+        "start" : 1593176890587,
+        "stop" : 1593176894952,
+        "duration" : 4365
       }
     } ]
   },
@@ -143,12 +124,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0fd3b0e384782bc",
+      "uid" : "5aa012250c0142aa",
       "status" : "passed",
       "time" : {
-        "start" : 1593102945849,
-        "stop" : 1593102956786,
-        "duration" : 10937
+        "start" : 1593176878489,
+        "stop" : 1593176890561,
+        "duration" : 12072
+      }
+    } ]
+  },
+  "7acf92ee757bca197b8e7a525a674ee1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21df7ea86b80a86b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593176956145,
+        "stop" : 1593176959834,
+        "duration" : 3689
       }
     } ]
   },
@@ -162,12 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b2481e8d1d98ca1",
+      "uid" : "69677cd1b13e80af",
       "status" : "passed",
       "time" : {
-        "start" : 1593102939337,
-        "stop" : 1593102945623,
-        "duration" : 6286
+        "start" : 1593176863819,
+        "stop" : 1593176878353,
+        "duration" : 14534
       }
     } ]
   }
