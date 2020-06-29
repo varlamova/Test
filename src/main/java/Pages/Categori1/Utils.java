@@ -23,6 +23,7 @@ public class Utils<actions> {
     private By articleProduct1Categori = By.xpath("//div[@id='main']//section[1]//div[1]/article");
     private By buttonclickToCategori = By.xpath("//div[@id='main']//div/section//a[1]");
     private By buttonAddProductToCart = By.xpath("//main/section[1]/div/div/div[1]//button");
+    private By buttonProductIsOutOfStoke = By.xpath("//*/text()[normalize-space(.)='Хорошо']/parent::*");
 
 
     @Step("Проверка отображения в категории первого товара")
@@ -36,7 +37,7 @@ public class Utils<actions> {
         }
     }
 
-    //////////////////////////////Положить товар в корзину?//////////////////////////////////
+    //////////////////////////////Положить товар в корзину//////////////////////////////////
     @Step("Кликнуть на 1 категорию с Главной")
     public void clickToCategoriFromMain() {
         driver.findElement(buttonclickToCategori).click();
@@ -45,6 +46,21 @@ public class Utils<actions> {
     @Step("Положить первый товар в корзину в категории")
     public void clickToProduct() throws InterruptedException {
         driver.findElement(buttonAddProductToCart).click();
-        Thread.sleep(2000);
+    }
+
+    @Step("Ожидание попапа с уведомлением о том, что товара нет в наличии")
+    public void waitPopupIsOutOfStoke() {
+        WebDriverWait wait = new WebDriverWait(driver, 1, 1);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(buttonProductIsOutOfStoke)).click();
+    }
+
+    @Step("Перейти на детальную страницу товара")
+    public void clickDetailCartProduct(int Product_Number) {
+        String clickDelailCart = String.format("//div[@id='main']//div[%d]/article/a[2]", Product_Number);
+        By linkDelailCart = By.xpath(clickDelailCart);
+        actions = new Actions(driver);
+        actions.moveToElement(driver.findElement(linkDelailCart));
+        actions.perform();
+        driver.findElement(linkDelailCart).click();
     }
 }

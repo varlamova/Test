@@ -1,5 +1,6 @@
 import Pages.Header.Header;
 import Pages.Home.Home;
+import Pages.Categori1.Categori1;
 import Utils.API;
 import Utils.Browser;
 import Utils.Global;
@@ -18,6 +19,7 @@ public class MainClassTest {
         public static WebDriver driver;
         public Header header;
         public Popup popup;
+        public Categori1 categori1;
         public Home main;
         public Global global;
         public API api;
@@ -26,7 +28,7 @@ public class MainClassTest {
         public static void setup() {
             driver = new Browser(driver).Chrome();
             driver.manage().window().setSize(new Dimension(1920, 1080));
-            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
         }
@@ -39,6 +41,7 @@ public class MainClassTest {
             header = new Header(driver);
             popup = new Popup(driver);
             main = new Home(driver);
+            categori1 = new Categori1(driver);
             global = new Global(driver);
             api = new API(driver);
             popup.clickClosePopup();
@@ -87,6 +90,16 @@ public class MainClassTest {
         public void MainCategori1() throws InterruptedException {
             main.clicklinkCategori1();
         }
+
+        @Test
+        @Flaky
+        @Severity(SeverityLevel.MINOR)
+        @Owner(value = "Большакова Полина Денисовна")
+        @DisplayName("Проверить товар на наличие и положить в корзну")
+        public void MainProductCart() throws InterruptedException {
+            categori1.clickProduct();
+        }
+
 
         @AfterClass
         public static void tearDownClass() {

@@ -5,73 +5,73 @@
     "name" : "Хедер",
     "children" : [ {
       "name" : "Поиск в Хедере",
-      "uid" : "69677cd1b13e80af",
+      "uid" : "adbd035f4b490f88",
       "parentUid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
       "status" : "passed",
       "time" : {
-        "start" : 1593176863819,
-        "stop" : 1593176878353,
-        "duration" : 14534
+        "start" : 1593435950479,
+        "stop" : 1593435963940,
+        "duration" : 13461
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Каталог в Хедере",
-      "uid" : "5aa012250c0142aa",
+      "uid" : "b5c4b4e0fb25d371",
       "parentUid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
       "status" : "passed",
       "time" : {
-        "start" : 1593176878489,
-        "stop" : 1593176890561,
-        "duration" : 12072
+        "start" : 1593435964102,
+        "stop" : 1593435976251,
+        "duration" : 12149
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "ЛК в Хедере",
-      "uid" : "feabcf2d552586e3",
+      "uid" : "688b2392e094962a",
       "parentUid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
       "status" : "failed",
       "time" : {
-        "start" : 1593176890587,
-        "stop" : 1593176894952,
-        "duration" : 4365
+        "start" : 1593435976259,
+        "stop" : 1593435980966,
+        "duration" : 4707
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Лого в Хедере",
-      "uid" : "ad83fd8170a1d9e6",
+      "uid" : "a0e1f2d1d00a5761",
       "parentUid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
       "status" : "passed",
       "time" : {
-        "start" : 1593176894958,
-        "stop" : 1593176898674,
-        "duration" : 3716
+        "start" : 1593435980982,
+        "stop" : 1593435986295,
+        "duration" : 5313
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Адрес доставки в Хедере",
-      "uid" : "2b1cb7cdfcc33362",
+      "uid" : "9dccd79e04047768",
       "parentUid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
       "status" : "passed",
       "time" : {
-        "start" : 1593176898678,
-        "stop" : 1593176902467,
-        "duration" : 3789
+        "start" : 1593435986298,
+        "stop" : 1593435990009,
+        "duration" : 3711
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Корзина в Хедере",
-      "uid" : "9f4df57395464296",
+      "uid" : "a2dd203e8ea11f7c",
       "parentUid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
       "status" : "passed",
       "time" : {
-        "start" : 1593176902474,
-        "stop" : 1593176911752,
-        "duration" : 9278
+        "start" : 1593435990012,
+        "stop" : 1593435997994,
+        "duration" : 7982
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -81,37 +81,49 @@
     "name" : "Главная",
     "children" : [ {
       "name" : "Категории на главной",
-      "uid" : "a976962f0322752f",
+      "uid" : "a75436b5e4a0caaa",
       "parentUid" : "3fbda4e25b13f42cfd5d1f7fad802dd2",
       "status" : "passed",
       "time" : {
-        "start" : 1593176917720,
-        "stop" : 1593176944400,
-        "duration" : 26680
+        "start" : 1593436004021,
+        "stop" : 1593436031318,
+        "duration" : 27297
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверить товар на наличие и положить в корзну",
+      "uid" : "2edd658adee8a476",
+      "parentUid" : "3fbda4e25b13f42cfd5d1f7fad802dd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593436031326,
+        "stop" : 1593436042068,
+        "duration" : 10742
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Адрес доставки на главной",
-      "uid" : "3986c94ebf5362a5",
+      "uid" : "160b412c6fff2378",
       "parentUid" : "3fbda4e25b13f42cfd5d1f7fad802dd2",
       "status" : "passed",
       "time" : {
-        "start" : 1593176944411,
-        "stop" : 1593176956140,
-        "duration" : 11729
+        "start" : 1593436042074,
+        "stop" : 1593436050774,
+        "duration" : 8700
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Баннер на главной",
-      "uid" : "21df7ea86b80a86b",
+      "uid" : "3d3bbc27df6ed273",
       "parentUid" : "3fbda4e25b13f42cfd5d1f7fad802dd2",
       "status" : "passed",
       "time" : {
-        "start" : 1593176956145,
-        "stop" : 1593176959834,
-        "duration" : 3689
+        "start" : 1593436050776,
+        "stop" : 1593436054337,
+        "duration" : 3561
       },
       "flaky" : false,
       "parameters" : [ ]

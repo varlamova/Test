@@ -1,12 +1,12 @@
 {
-  "uid" : "feabcf2d552586e3",
+  "uid" : "688b2392e094962a",
   "name" : "ЛК в Хедере",
   "fullName" : "HeaderClassTest.HeaderLK",
   "historyId" : "a3eedc1762e4b51d4e0323b062c90cc6",
   "time" : {
-    "start" : 1593176890587,
-    "stop" : 1593176894952,
-    "duration" : 4365
+    "start" : 1593435976259,
+    "stop" : 1593435980966,
+    "duration" : 4707
   },
   "status" : "failed",
   "statusMessage" : "Это не страница ЛК",
@@ -20,39 +20,39 @@
     "steps" : [ {
       "name" : "Закрытие попапа",
       "time" : {
-        "start" : 1593176893424,
-        "stop" : 1593176893882,
-        "duration" : 458
+        "start" : 1593435979221,
+        "stop" : 1593435979791,
+        "duration" : 570
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Закрытие попапа 'Я согласен'",
       "time" : {
-        "start" : 1593176893883,
-        "stop" : 1593176894035,
-        "duration" : 152
+        "start" : 1593435979791,
+        "stop" : 1593435979949,
+        "duration" : 158
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Проверка ЛК",
       "time" : {
-        "start" : 1593176894035,
-        "stop" : 1593176894367,
-        "duration" : 332
+        "start" : 1593435979949,
+        "stop" : 1593435980327,
+        "duration" : 378
       },
       "status" : "failed",
       "statusMessage" : "Это не страница ЛК",
@@ -60,39 +60,39 @@
       "steps" : [ {
         "name" : "Проверка текста у 'ЛК'",
         "time" : {
-          "start" : 1593176894035,
-          "stop" : 1593176894067,
-          "duration" : 32
+          "start" : 1593435979950,
+          "stop" : 1593435979990,
+          "duration" : 40
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Нажатие на иконку ЛК",
         "time" : {
-          "start" : 1593176894068,
-          "stop" : 1593176894307,
-          "duration" : 239
+          "start" : 1593435979992,
+          "stop" : 1593435980253,
+          "duration" : 261
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Проверка url ЛК",
         "time" : {
-          "start" : 1593176894307,
-          "stop" : 1593176894367,
-          "duration" : 60
+          "start" : 1593435980254,
+          "stop" : 1593435980327,
+          "duration" : 73
         },
         "status" : "failed",
         "statusMessage" : "Это не страница ЛК",
@@ -100,30 +100,30 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : true
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 3,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "130e294199f89c0d",
+      "uid" : "da6c2dcb00be667c",
       "name" : "Screenshot on failure",
-      "source" : "130e294199f89c0d.png",
+      "source" : "da6c2dcb00be667c.png",
       "type" : "image/png",
-      "size" : 73438
+      "size" : 78384
     } ],
     "parameters" : [ ],
-    "stepsCount" : 6,
-    "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -143,7 +143,7 @@
     "value" : "Greensight-007"
   }, {
     "name" : "thread",
-    "value" : "21028@Greensight-007.main(1)"
+    "value" : "1648@Greensight-007.main(1)"
   }, {
     "name" : "owner",
     "value" : "Большакова Полина Денисовна"
@@ -170,6 +170,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "feabcf2d552586e3.json",
+  "source" : "688b2392e094962a.json",
   "parameterValues" : [ ]
 }

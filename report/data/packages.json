@@ -5,109 +5,121 @@
     "name" : "",
     "children" : [ {
       "name" : "HeaderSearct",
-      "uid" : "6b2481e8d1d98ca1",
+      "uid" : "adbd035f4b490f88",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593102939337,
-        "stop" : 1593102945623,
-        "duration" : 6286
+        "start" : 1593435950479,
+        "stop" : 1593435963940,
+        "duration" : 13461
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "HeadermoveCatalog",
-      "uid" : "d0fd3b0e384782bc",
+      "uid" : "b5c4b4e0fb25d371",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593102945849,
-        "stop" : 1593102956786,
-        "duration" : 10937
+        "start" : 1593435964102,
+        "stop" : 1593435976251,
+        "duration" : 12149
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "HeaderLK",
-      "uid" : "b658d7de7355dc07",
+      "uid" : "688b2392e094962a",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "failed",
       "time" : {
-        "start" : 1593102956796,
-        "stop" : 1593102960353,
-        "duration" : 3557
+        "start" : 1593435976259,
+        "stop" : 1593435980966,
+        "duration" : 4707
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "HeaderLogo",
-      "uid" : "b204ca3011531475",
+      "uid" : "a0e1f2d1d00a5761",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593102960359,
-        "stop" : 1593102963208,
-        "duration" : 2849
+        "start" : 1593435980982,
+        "stop" : 1593435986295,
+        "duration" : 5313
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "HeaderDeliveryAddress",
-      "uid" : "aef9284cbe017c86",
+      "uid" : "9dccd79e04047768",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593102963213,
-        "stop" : 1593102966190,
-        "duration" : 2977
+        "start" : 1593435986298,
+        "stop" : 1593435990009,
+        "duration" : 3711
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "HeaderBasket",
-      "uid" : "fa7885d7aa619584",
+      "uid" : "a2dd203e8ea11f7c",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593102966192,
-        "stop" : 1593102972164,
-        "duration" : 5972
+        "start" : 1593435990012,
+        "stop" : 1593435997994,
+        "duration" : 7982
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "MainCategori1",
-      "uid" : "cb5e048c5c7938af",
+      "uid" : "a75436b5e4a0caaa",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593102978242,
-        "stop" : 1593103000607,
-        "duration" : 22365
+        "start" : 1593436004021,
+        "stop" : 1593436031318,
+        "duration" : 27297
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "MainProductCart",
+      "uid" : "2edd658adee8a476",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593436031326,
+        "stop" : 1593436042068,
+        "duration" : 10742
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "MainAddressDelivery",
-      "uid" : "9475d1196abe3a72",
+      "uid" : "160b412c6fff2378",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593103000612,
-        "stop" : 1593103006775,
-        "duration" : 6163
+        "start" : 1593436042074,
+        "stop" : 1593436050774,
+        "duration" : 8700
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "MainBanner",
-      "uid" : "ac530e01273365b5",
+      "uid" : "3d3bbc27df6ed273",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1593103006781,
-        "stop" : 1593103009681,
-        "duration" : 2900
+        "start" : 1593436050776,
+        "stop" : 1593436054337,
+        "duration" : 3561
       },
       "flaky" : false,
       "parameters" : [ ]

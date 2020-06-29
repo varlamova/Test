@@ -1,12 +1,12 @@
 {
-  "uid" : "2b1cb7cdfcc33362",
+  "uid" : "9dccd79e04047768",
   "name" : "Адрес доставки в Хедере",
   "fullName" : "HeaderClassTest.HeaderDeliveryAddress",
   "historyId" : "4ce3dc9912df315a8f870e81bdf48a63",
   "time" : {
-    "start" : 1593176898678,
-    "stop" : 1593176902467,
-    "duration" : 3789
+    "start" : 1593435986298,
+    "stop" : 1593435990009,
+    "duration" : 3711
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,85 +16,85 @@
     "steps" : [ {
       "name" : "Закрытие попапа",
       "time" : {
-        "start" : 1593176901353,
-        "stop" : 1593176901966,
-        "duration" : 613
+        "start" : 1593435988921,
+        "stop" : 1593435989463,
+        "duration" : 542
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Закрытие попапа 'Я согласен'",
       "time" : {
-        "start" : 1593176901968,
-        "stop" : 1593176902114,
-        "duration" : 146
+        "start" : 1593435989463,
+        "stop" : 1593435989622,
+        "duration" : 159
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Проверка адреса доставки",
       "time" : {
-        "start" : 1593176902114,
-        "stop" : 1593176902466,
-        "duration" : 352
+        "start" : 1593435989623,
+        "stop" : 1593435990009,
+        "duration" : 386
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Нажать на ссылку 'Адрес доставки'",
         "time" : {
-          "start" : 1593176902114,
-          "stop" : 1593176902269,
-          "duration" : 155
+          "start" : 1593435989623,
+          "stop" : 1593435989804,
+          "duration" : 181
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Проверка названия адреса доставки",
         "time" : {
-          "start" : 1593176902270,
-          "stop" : 1593176902466,
-          "duration" : 196
+          "start" : 1593435989806,
+          "stop" : 1593435990009,
+          "duration" : 203
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -114,7 +114,7 @@
     "value" : "Greensight-007"
   }, {
     "name" : "thread",
-    "value" : "21028@Greensight-007.main(1)"
+    "value" : "1648@Greensight-007.main(1)"
   }, {
     "name" : "owner",
     "value" : "Большакова Полина Денисовна"
@@ -133,6 +133,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2b1cb7cdfcc33362.json",
+  "source" : "9dccd79e04047768.json",
   "parameterValues" : [ ]
 }

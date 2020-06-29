@@ -1,12 +1,12 @@
 {
-  "uid" : "9f4df57395464296",
+  "uid" : "a2dd203e8ea11f7c",
   "name" : "Корзина в Хедере",
   "fullName" : "HeaderClassTest.HeaderBasket",
   "historyId" : "c141d11b33976ffa27d1615469aa241b",
   "time" : {
-    "start" : 1593176902474,
-    "stop" : 1593176911752,
-    "duration" : 9278
+    "start" : 1593435990012,
+    "stop" : 1593435997994,
+    "duration" : 7982
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,145 +16,145 @@
     "steps" : [ {
       "name" : "Закрытие попапа",
       "time" : {
-        "start" : 1593176905640,
-        "stop" : 1593176906006,
-        "duration" : 366
+        "start" : 1593435993234,
+        "stop" : 1593435993535,
+        "duration" : 301
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Закрытие попапа 'Я согласен'",
       "time" : {
-        "start" : 1593176906006,
-        "stop" : 1593176906138,
-        "duration" : 132
+        "start" : 1593435993535,
+        "stop" : 1593435993675,
+        "duration" : 140
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Проверка корзины",
       "time" : {
-        "start" : 1593176906138,
-        "stop" : 1593176911752,
-        "duration" : 5614
+        "start" : 1593435993676,
+        "stop" : 1593435997994,
+        "duration" : 4318
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Кликнуть на 1 категорию с Главной",
         "time" : {
-          "start" : 1593176906138,
-          "stop" : 1593176906423,
-          "duration" : 285
+          "start" : 1593435993676,
+          "stop" : 1593435993957,
+          "duration" : 281
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Положить первый товар в корзину в категории",
         "time" : {
-          "start" : 1593176906424,
-          "stop" : 1593176909139,
-          "duration" : 2715
+          "start" : 1593435993958,
+          "stop" : 1593435994695,
+          "duration" : 737
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Нажатие на иконку 'Корзина'",
         "time" : {
-          "start" : 1593176909139,
-          "stop" : 1593176909302,
-          "duration" : 163
+          "start" : 1593435994696,
+          "stop" : 1593435994904,
+          "duration" : 208
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Проверка url корзины",
         "time" : {
-          "start" : 1593176909302,
-          "stop" : 1593176909346,
-          "duration" : 44
+          "start" : 1593435994905,
+          "stop" : 1593435994977,
+          "duration" : 72
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Проверка ответа API в корзине 1 товар",
         "time" : {
-          "start" : 1593176909347,
-          "stop" : 1593176910925,
-          "duration" : 1578
+          "start" : 1593435994977,
+          "stop" : 1593435997165,
+          "duration" : 2188
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Проверка API 'Поиск по слову яблоки'",
         "time" : {
-          "start" : 1593176910925,
-          "stop" : 1593176911752,
-          "duration" : 827
+          "start" : 1593435997166,
+          "stop" : 1593435997994,
+          "duration" : 828
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 6,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 9,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -174,7 +174,7 @@
     "value" : "Greensight-007"
   }, {
     "name" : "thread",
-    "value" : "21028@Greensight-007.main(1)"
+    "value" : "1648@Greensight-007.main(1)"
   }, {
     "name" : "owner",
     "value" : "Большакова Полина Денисовна"
@@ -193,6 +193,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f4df57395464296.json",
+  "source" : "a2dd203e8ea11f7c.json",
   "parameterValues" : [ ]
 }

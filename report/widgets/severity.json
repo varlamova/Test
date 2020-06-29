@@ -1,91 +1,101 @@
 [ {
-  "uid" : "3986c94ebf5362a5",
-  "name" : "Адрес доставки на главной",
+  "uid" : "b5c4b4e0fb25d371",
+  "name" : "Каталог в Хедере",
   "time" : {
-    "start" : 1593176944411,
-    "stop" : 1593176956140,
-    "duration" : 11729
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f4df57395464296",
-  "name" : "Корзина в Хедере",
-  "time" : {
-    "start" : 1593176902474,
-    "stop" : 1593176911752,
-    "duration" : 9278
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21df7ea86b80a86b",
-  "name" : "Баннер на главной",
-  "time" : {
-    "start" : 1593176956145,
-    "stop" : 1593176959834,
-    "duration" : 3689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b1cb7cdfcc33362",
-  "name" : "Адрес доставки в Хедере",
-  "time" : {
-    "start" : 1593176898678,
-    "stop" : 1593176902467,
-    "duration" : 3789
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a976962f0322752f",
-  "name" : "Категории на главной",
-  "time" : {
-    "start" : 1593176917720,
-    "stop" : 1593176944400,
-    "duration" : 26680
+    "start" : 1593435964102,
+    "stop" : 1593435976251,
+    "duration" : 12149
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "ad83fd8170a1d9e6",
-  "name" : "Лого в Хедере",
-  "time" : {
-    "start" : 1593176894958,
-    "stop" : 1593176898674,
-    "duration" : 3716
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "feabcf2d552586e3",
+  "uid" : "688b2392e094962a",
   "name" : "ЛК в Хедере",
   "time" : {
-    "start" : 1593176890587,
-    "stop" : 1593176894952,
-    "duration" : 4365
+    "start" : 1593435976259,
+    "stop" : 1593435980966,
+    "duration" : 4707
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "69677cd1b13e80af",
-  "name" : "Поиск в Хедере",
+  "uid" : "2edd658adee8a476",
+  "name" : "Проверить товар на наличие и положить в корзну",
   "time" : {
-    "start" : 1593176863819,
-    "stop" : 1593176878353,
-    "duration" : 14534
+    "start" : 1593436031326,
+    "stop" : 1593436042068,
+    "duration" : 10742
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a0e1f2d1d00a5761",
+  "name" : "Лого в Хедере",
+  "time" : {
+    "start" : 1593435980982,
+    "stop" : 1593435986295,
+    "duration" : 5313
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5aa012250c0142aa",
-  "name" : "Каталог в Хедере",
+  "uid" : "a75436b5e4a0caaa",
+  "name" : "Категории на главной",
   "time" : {
-    "start" : 1593176878489,
-    "stop" : 1593176890561,
-    "duration" : 12072
+    "start" : 1593436004021,
+    "stop" : 1593436031318,
+    "duration" : 27297
   },
   "status" : "passed",
   "severity" : "minor"
+}, {
+  "uid" : "a2dd203e8ea11f7c",
+  "name" : "Корзина в Хедере",
+  "time" : {
+    "start" : 1593435990012,
+    "stop" : 1593435997994,
+    "duration" : 7982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adbd035f4b490f88",
+  "name" : "Поиск в Хедере",
+  "time" : {
+    "start" : 1593435950479,
+    "stop" : 1593435963940,
+    "duration" : 13461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dccd79e04047768",
+  "name" : "Адрес доставки в Хедере",
+  "time" : {
+    "start" : 1593435986298,
+    "stop" : 1593435990009,
+    "duration" : 3711
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "160b412c6fff2378",
+  "name" : "Адрес доставки на главной",
+  "time" : {
+    "start" : 1593436042074,
+    "stop" : 1593436050774,
+    "duration" : 8700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d3bbc27df6ed273",
+  "name" : "Баннер на главной",
+  "time" : {
+    "start" : 1593436050776,
+    "stop" : 1593436054337,
+    "duration" : 3561
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]
