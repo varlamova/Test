@@ -120,10 +120,7 @@ public class Utils<actions> {
         if ((urlSearch.equals(Global.url + "search?query=%D0%9C%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE")) || (urlSearch.equals(Global.url + "search?query=Молоко"))) {
 
         }
-
-        else {
-            fail("Это не страница поиска");
-        }
+        else { fail("Это не страница поиска"); }
     }
 
     ///////////////////////////Все шаги в функции "Проверка каталога"/////////////////
@@ -143,7 +140,7 @@ public class Utils<actions> {
         actions.perform();
     }
 
-    @Step("Навести мышку на N Подкатегорию")
+    @Step("Нажать на N Подкатегорию")
     public void mouseoverbuttonCategori2(int numberCategori2) {
         String outputCategori2 = String.format("//header//ul[2]/li[%d]/a", numberCategori2);
         By buttonCategori2 = By.xpath(outputCategori2);

@@ -1,7 +1,6 @@
 package Pages.Header;
 import Utils.API;
 import io.qameta.allure.Step;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -19,15 +18,6 @@ public class Header {
         utilsCategori = new Pages.Categori1.Utils(driver);
 
     }
-
-    ///////////////////////////////Все объекты Хедера/////////////////////////////////
-    private By buttonBasket = By.xpath("//header//div[5]/a");
-    private By buttonDeliveryAddress = By.xpath("//div[@id='root']//section[1]//button");
-    private By linkLK = By.xpath("//header//div[4]/a");
-    private By spanNameLK = By.xpath("//header//div[4]//span");
-    private By linkLogo = By.xpath("//header//div[2]/a");
-    private By buttonSearch = By.xpath("//button[@type='submit' and text() = \"Найти\"]");
-    private By inputSearch = By.xpath("//input[@id='search']");
 
     ///////////////////////////////Корзина/////////////////////////////////
     @Step("Проверка корзины")

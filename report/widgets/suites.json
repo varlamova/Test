@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
     "name" : "Хедер",
@@ -21,6 +21,17 @@
       "passed" : 4,
       "unknown" : 0,
       "total" : 4
+    }
+  }, {
+    "uid" : "f8e65838e6d24eb8bb51b7a93bb3317e",
+    "name" : "Основные события для тест-сценариев",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   } ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "adbd035f4b490f88",
+  "uid" : "1e490cc4c63b2c8b",
   "name" : "Поиск в Хедере",
   "fullName" : "HeaderClassTest.HeaderSearct",
   "historyId" : "c27c0345b85e892def9976419661b85",
   "time" : {
-    "start" : 1593435950479,
-    "stop" : 1593435963940,
-    "duration" : 13461
+    "start" : 1593505409058,
+    "stop" : 1593505424096,
+    "duration" : 15038
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,115 +16,115 @@
     "steps" : [ {
       "name" : "Закрытие попапа",
       "time" : {
-        "start" : 1593435956867,
-        "stop" : 1593435957723,
-        "duration" : 856
+        "start" : 1593505415306,
+        "stop" : 1593505416373,
+        "duration" : 1067
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Закрытие попапа 'Я согласен'",
       "time" : {
-        "start" : 1593435957724,
-        "stop" : 1593435957853,
-        "duration" : 129
+        "start" : 1593505416373,
+        "stop" : 1593505416567,
+        "duration" : 194
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Проверка поиска",
       "time" : {
-        "start" : 1593435957853,
-        "stop" : 1593435963936,
-        "duration" : 6083
+        "start" : 1593505416568,
+        "stop" : 1593505424096,
+        "duration" : 7528
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Вставить в поле поиска слово 'Молоко'",
         "time" : {
-          "start" : 1593435957854,
-          "stop" : 1593435959110,
-          "duration" : 1256
+          "start" : 1593505416568,
+          "stop" : 1593505417894,
+          "duration" : 1326
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : "Нажать на кнопку 'Поиск'",
         "time" : {
-          "start" : 1593435959111,
-          "stop" : 1593435959273,
-          "duration" : 162
+          "start" : 1593505417894,
+          "stop" : 1593505418176,
+          "duration" : 282
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : "Проверка url Поиска",
         "time" : {
-          "start" : 1593435959274,
-          "stop" : 1593435959430,
-          "duration" : 156
+          "start" : 1593505418176,
+          "stop" : 1593505418393,
+          "duration" : 217
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : "Проверка ответа API 'Получение информации по корзине'",
         "time" : {
-          "start" : 1593435959430,
-          "stop" : 1593435963936,
-          "duration" : 4506
+          "start" : 1593505418394,
+          "stop" : 1593505424096,
+          "duration" : 5702
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 4,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 7,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -144,7 +144,7 @@
     "value" : "Greensight-007"
   }, {
     "name" : "thread",
-    "value" : "1648@Greensight-007.main(1)"
+    "value" : "9892@Greensight-007.main(1)"
   }, {
     "name" : "owner",
     "value" : "Большакова Полина Денисовна"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "adbd035f4b490f88.json",
+  "source" : "1e490cc4c63b2c8b.json",
   "parameterValues" : [ ]
 }

@@ -28,7 +28,7 @@ public class MainClassTest {
         public static void setup() {
             driver = new Browser(driver).Chrome();
             driver.manage().window().setSize(new Dimension(1920, 1080));
-            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
         }
