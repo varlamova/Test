@@ -1,0 +1,927 @@
+{
+  "uid" : "89fbd115d9893794",
+  "name" : "Категории на главной",
+  "fullName" : "MainClassTest.MainCategori1",
+  "historyId" : "3fb33db3a53ed5fcca1a8ad275b820c",
+  "time" : {
+    "start" : 1593539241159,
+    "stop" : 1593539261640,
+    "duration" : 20481
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Закрытие попапа",
+      "time" : {
+        "start" : 1593539244059,
+        "stop" : 1593539244618,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Закрытие попапа 'Я согласен'",
+      "time" : {
+        "start" : 1593539244618,
+        "stop" : 1593539244735,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка категорий и отображение товаров в них (17 категорий с главной)",
+      "time" : {
+        "start" : 1593539244736,
+        "stop" : 1593539261640,
+        "duration" : 16904
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539244736,
+          "stop" : 1593539245153,
+          "duration" : 417
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "1"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539245153,
+          "stop" : 1593539245902,
+          "duration" : 749
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539245903,
+          "stop" : 1593539246098,
+          "duration" : 195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539246098,
+          "stop" : 1593539246538,
+          "duration" : 440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "2"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539246538,
+          "stop" : 1593539246952,
+          "duration" : 414
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539246952,
+          "stop" : 1593539247110,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539247110,
+          "stop" : 1593539247507,
+          "duration" : 397
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "3"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539247507,
+          "stop" : 1593539248124,
+          "duration" : 617
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539248125,
+          "stop" : 1593539248319,
+          "duration" : 194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539248319,
+          "stop" : 1593539248831,
+          "duration" : 512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "4"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539248831,
+          "stop" : 1593539249282,
+          "duration" : 451
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539249282,
+          "stop" : 1593539249440,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539249440,
+          "stop" : 1593539249871,
+          "duration" : 431
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "5"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539249871,
+          "stop" : 1593539250300,
+          "duration" : 429
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539250300,
+          "stop" : 1593539250517,
+          "duration" : 217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539250517,
+          "stop" : 1593539250919,
+          "duration" : 402
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "6"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539250920,
+          "stop" : 1593539251291,
+          "duration" : 371
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539251291,
+          "stop" : 1593539251412,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539251412,
+          "stop" : 1593539251757,
+          "duration" : 345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "7"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539251757,
+          "stop" : 1593539252069,
+          "duration" : 312
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539252069,
+          "stop" : 1593539252242,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539252242,
+          "stop" : 1593539252616,
+          "duration" : 374
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "8"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539252616,
+          "stop" : 1593539253315,
+          "duration" : 699
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539253315,
+          "stop" : 1593539253475,
+          "duration" : 160
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539253475,
+          "stop" : 1593539254002,
+          "duration" : 527
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "9"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539254002,
+          "stop" : 1593539254292,
+          "duration" : 290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539254292,
+          "stop" : 1593539254437,
+          "duration" : 145
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539254437,
+          "stop" : 1593539254783,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "10"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539254784,
+          "stop" : 1593539255297,
+          "duration" : 513
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539255297,
+          "stop" : 1593539255449,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539255449,
+          "stop" : 1593539255885,
+          "duration" : 436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "11"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539255885,
+          "stop" : 1593539256120,
+          "duration" : 235
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539256120,
+          "stop" : 1593539256225,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539256225,
+          "stop" : 1593539256545,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "12"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539256545,
+          "stop" : 1593539256890,
+          "duration" : 345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539256890,
+          "stop" : 1593539257048,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539257049,
+          "stop" : 1593539257383,
+          "duration" : 334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "13"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539257383,
+          "stop" : 1593539257639,
+          "duration" : 256
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539257639,
+          "stop" : 1593539257779,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539257779,
+          "stop" : 1593539258100,
+          "duration" : 321
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "14"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539258100,
+          "stop" : 1593539258569,
+          "duration" : 469
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539258570,
+          "stop" : 1593539258728,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539258728,
+          "stop" : 1593539259176,
+          "duration" : 448
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "15"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539259176,
+          "stop" : 1593539259666,
+          "duration" : 490
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539259666,
+          "stop" : 1593539259810,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539259810,
+          "stop" : 1593539260249,
+          "duration" : 439
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "16"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539260250,
+          "stop" : 1593539260552,
+          "duration" : 302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539260552,
+          "stop" : 1593539260674,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Кликнуть на N категорию с Главной",
+        "time" : {
+          "start" : 1593539260674,
+          "stop" : 1593539261006,
+          "duration" : 332
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "numberCategori1",
+          "value" : "17"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения в категории первого товара",
+        "time" : {
+          "start" : 1593539261006,
+          "stop" : 1593539261445,
+          "duration" : 439
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажатие на Лого",
+        "time" : {
+          "start" : 1593539261446,
+          "stop" : 1593539261640,
+          "duration" : 194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 51,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 54,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "MainClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "MainCategori1"
+  }, {
+    "name" : "suite",
+    "value" : "Главная"
+  }, {
+    "name" : "host",
+    "value" : "RikoRodriges"
+  }, {
+    "name" : "thread",
+    "value" : "12696@RikoRodriges.main(1)"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "Большакова Полина Денисовна"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "Большакова Полина Денисовна",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89fbd115d9893794.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,198 @@
+{
+  "uid" : "a0f9b6228221d402",
+  "name" : "Адрес доставки на главной",
+  "fullName" : "MainClassTest.MainAddressDelivery",
+  "historyId" : "9894b59d9a7457eb12035c5882585977",
+  "time" : {
+    "start" : 1593539270960,
+    "stop" : 1593539277435,
+    "duration" : 6475
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Закрытие попапа",
+      "time" : {
+        "start" : 1593539273524,
+        "stop" : 1593539273716,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Закрытие попапа 'Я согласен'",
+      "time" : {
+        "start" : 1593539273716,
+        "stop" : 1593539273825,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка ввода адреса доставки",
+      "time" : {
+        "start" : 1593539273825,
+        "stop" : 1593539277435,
+        "duration" : 3610
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажать на кнопку 'Адрес доставки'",
+        "time" : {
+          "start" : 1593539273825,
+          "stop" : 1593539273973,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Написать адрес в попапе 'Адрес доставки'",
+        "time" : {
+          "start" : 1593539273973,
+          "stop" : 1593539275431,
+          "duration" : 1458
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Ожидание появления вариантов адресов",
+        "time" : {
+          "start" : 1593539275431,
+          "stop" : 1593539275955,
+          "duration" : 524
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Выбрать первый вариант адреса",
+        "time" : {
+          "start" : 1593539275956,
+          "stop" : 1593539276059,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Сохранить адрес",
+        "time" : {
+          "start" : 1593539276059,
+          "stop" : 1593539277398,
+          "duration" : 1339
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Проверка отображения баннера",
+        "time" : {
+          "start" : 1593539277399,
+          "stop" : 1593539277435,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "MainClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "MainAddressDelivery"
+  }, {
+    "name" : "suite",
+    "value" : "Главная"
+  }, {
+    "name" : "host",
+    "value" : "RikoRodriges"
+  }, {
+    "name" : "thread",
+    "value" : "12696@RikoRodriges.main(1)"
+  }, {
+    "name" : "owner",
+    "value" : "Большакова Полина Денисовна"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Большакова Полина Денисовна",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0f9b6228221d402.json",
+  "parameterValues" : [ ]
+}

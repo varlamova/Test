@@ -4,10 +4,10 @@
     "uid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
     "name" : "Хедер",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 6
     }

@@ -7,18 +7,34 @@
       "name" : "Это не страница ЛК",
       "children" : [ {
         "name" : "ЛК в Хедере",
-        "uid" : "452add067f63f97e",
+        "uid" : "7025940fb9ed5314",
         "parentUid" : "4c21743528c44b95021a6efe15a385b5",
         "status" : "failed",
         "time" : {
-          "start" : 1593505440489,
-          "stop" : 1593505446877,
-          "duration" : 6388
+          "start" : 1593539221295,
+          "stop" : 1593539224774,
+          "duration" : 3479
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "4c21743528c44b95021a6efe15a385b5"
+    }, {
+      "name" : "В корзине не 1 товар",
+      "children" : [ {
+        "name" : "Корзина в Хедере",
+        "uid" : "25c25d2c95300765",
+        "parentUid" : "0496e404b1c1e651b69498233e4dcef4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593539230447,
+          "stop" : 1593539235287,
+          "duration" : 4840
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0496e404b1c1e651b69498233e4dcef4"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

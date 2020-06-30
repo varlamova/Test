@@ -1,4 +1,5 @@
 package Utils;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +15,7 @@ public class Browser {
 
     @Step("Открытие браузера Chrome в разрешении 1920:1080")
     public WebDriver Chrome() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\bolshakova\\TestByFil\\drivers\\chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         return driver;
     }
@@ -27,14 +28,14 @@ public class Browser {
 
     @Step("Открытие браузера Firefox в разрешении 1920:1080")
     public WebDriver FireFox() {
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\bolshakova\\TestByFil\\drivers\\geckodriver.exe");
+        WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
         return driver;
     }
 
     @Step("Открытие браузера Edge в разрешении 1920:1080")
     public WebDriver Edge() {
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\bolshakova\\TestByFil\\drivers\\geckodriver.exe");
+        WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
         return driver;
     }
