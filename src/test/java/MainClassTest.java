@@ -15,13 +15,13 @@ import java.util.concurrent.TimeUnit;
 
 @DisplayName("Главная")
 public class MainClassTest {
-
         public static WebDriver driver;
         public Header header;
         public Popup popup;
         public Categori1 categori1;
         public Home main;
         public Global global;
+        private Browser browser;
         public API api;
 
         @BeforeClass
@@ -43,6 +43,7 @@ public class MainClassTest {
             main = new Home(driver);
             categori1 = new Categori1(driver);
             global = new Global(driver);
+            browser = new Browser(driver);
             api = new API(driver);
             popup.clickClosePopup();
             popup.clickCloseIAgree();
@@ -99,7 +100,6 @@ public class MainClassTest {
         public void MainProductCart() throws InterruptedException {
             categori1.clickProduct();
         }
-
 
         @AfterClass
         public static void tearDownClass() {

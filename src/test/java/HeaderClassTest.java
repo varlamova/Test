@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
     public Header header;
     public Popup popup;
     public Home main;
-    private Browser browserClose;
+    private Browser browser;
     public Global global;
 
     @BeforeClass
@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit;
         popup = new Popup(driver);
         main = new Home(driver);
         global = new Global(driver);
-        browserClose = new Browser(driver);
+        browser = new Browser(driver);
         popup.clickClosePopup();
         popup.clickCloseIAgree();
     }

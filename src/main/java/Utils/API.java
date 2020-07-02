@@ -39,7 +39,7 @@ public class API {
     ///////////////////?/////////////Поиск////////////////////////////////////////////////////////
     //Проверка запроса на изменение url страницы и его ответ
     @Step("Проверка API 'Поиск по слову яблоки'")
-    public void testPutProductt() throws AssertionError {
+    public void testSearchProduct() throws AssertionError {
         try { given().queryParam("query", searctName).get(getInformationForSearch).then().statusCode(200); }
         catch(AssertionError e) { fail("Запрос не равен '200'"); }
     }

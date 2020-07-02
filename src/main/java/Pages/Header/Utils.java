@@ -80,7 +80,7 @@ public class Utils<actions> {
     @Step("Проверка url ЛК")
     public void urlLK() {
         String urlLK = driver.getCurrentUrl();
-        if (!urlLK.equals(Global.url + "aut")) {
+        if (!urlLK.equals(Global.url + "auth/")) {
             fail("Это не страница ЛК");
         }
     }

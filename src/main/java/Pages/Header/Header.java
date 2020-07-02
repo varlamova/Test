@@ -27,7 +27,7 @@ public class Header {
         utils.clickBasket();
         utils.urlBasket();
         api.testGetTotalCountCart();
-        api.testPutProductt();
+        api.testSearchProduct();
     }
 
     ///////////////////////////////Адрес доставки/////////////////////////////////

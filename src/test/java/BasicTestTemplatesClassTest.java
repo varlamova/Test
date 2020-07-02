@@ -8,11 +8,10 @@ import org.junit.*;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.*;
-
 import java.util.concurrent.TimeUnit;
 
     @DisplayName("Основные события для тест-сценариев")//Название тест-сценария для allure
-    public class BasicTestTemplatesClassTest {
+        public class BasicTestTemplatesClassTest {
         public static WebDriver driver;
         public Popup popup;
         public BasicTestTemplates basicTestTemplates;
@@ -81,6 +80,13 @@ import java.util.concurrent.TimeUnit;
             basicTestTemplates.Main();//Тест-сценарий, написанный в "basicTestTemplates"
         }
 
+        @Test
+        @Severity(SeverityLevel.NORMAL)//Критичность тест-сценария для отображении в allure (BLOCKER, CRITICAL,MINOR, NORMAL, TRIVIAL)
+        @DisplayName("Проверка основных запросов API")//Название тест-сценария в allure
+        @Owner(value = "Большакова Полина Денисовна")//Инициалы того, кто написал тест-сценарий
+        public void BasicTestTemplateAPI() {
+            basicTestTemplates.API();//Тест-сценарий, написанный в "basicTestTemplates"
+        }
 
         //действия, которые должны выполняться в конце всех тест-сценариев
         @AfterClass

@@ -43,4 +43,12 @@ public class BasicTestTemplates {
         }
     }
 
+    //собираем все написанные мини-тесты из "API"
+    @Step("Проверка запросов API")
+    public void API() {
+        api.testGetStatusCart();
+        api.testGetTotalCountCart();
+        api.testSearchProduct();
+        api.testGetCodeProduct();
+    }
 }
