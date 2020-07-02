@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "В корзине не 1 товар",
+      "children" : [ {
+        "name" : "Проверка основных запросов API",
+        "uid" : "befd8477d0da896c",
+        "parentUid" : "0496e404b1c1e651b69498233e4dcef4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593676730376,
+          "stop" : 1593676738706,
+          "duration" : 8330
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0496e404b1c1e651b69498233e4dcef4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
