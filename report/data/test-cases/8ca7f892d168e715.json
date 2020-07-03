@@ -1,0 +1,50 @@
+{
+  "uid" : "8ca7f892d168e715",
+  "name" : "Хедер",
+  "fullName" : "HeaderClassTest",
+  "historyId" : "25a97d998991134389f95165273849c6",
+  "time" : {
+    "start" : 1593772796452,
+    "stop" : 1593772796453,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HeaderClassTest"
+  }, {
+    "name" : "suite",
+    "value" : "Хедер"
+  }, {
+    "name" : "host",
+    "value" : "aaw"
+  }, {
+    "name" : "thread",
+    "value" : "15884@aaw.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ca7f892d168e715.json",
+  "parameterValues" : [ ]
+}

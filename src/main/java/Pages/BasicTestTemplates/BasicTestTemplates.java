@@ -1,6 +1,7 @@
 package Pages.BasicTestTemplates;
 import Utils.API;
 import io.qameta.allure.Step;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.openqa.selenium.WebDriver;
 
 public class BasicTestTemplates {

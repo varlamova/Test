@@ -2,158 +2,38 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Применение основных событий на странице корзины",
-    "uid" : "756780f8b935d7ed",
+    "name" : "Основные события для тест-сценариев",
+    "uid" : "98516e1d553459b4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "skipped",
     "time" : {
-      "start" : 1593676700422,
-      "stop" : 1593676710494,
-      "duration" : 10072
+      "start" : 1593772796227,
+      "stop" : 1593772796231,
+      "duration" : 4
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Применение основных событий на главной странице",
-    "uid" : "e86075a3da744506",
+    "name" : "Хедер",
+    "uid" : "8ca7f892d168e715",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "skipped",
     "time" : {
-      "start" : 1593676710653,
-      "stop" : 1593676730364,
-      "duration" : 19711
+      "start" : 1593772796452,
+      "stop" : 1593772796453,
+      "duration" : 1
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Проверка основных запросов API",
-    "uid" : "2f3756318f781318",
+    "name" : "Главная",
+    "uid" : "2ff96e65cdaefa83",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "skipped",
     "time" : {
-      "start" : 1593676730376,
-      "stop" : 1593676738706,
-      "duration" : 8330
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Поиск в Хедере",
-    "uid" : "5b8d2e4e88188de1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676744729,
-      "stop" : 1593676753462,
-      "duration" : 8733
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Каталог в Хедере",
-    "uid" : "4e39b64dd909784c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676753465,
-      "stop" : 1593676763979,
-      "duration" : 10514
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "ЛК в Хедере",
-    "uid" : "60db847e2c8e752d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676763981,
-      "stop" : 1593676766862,
-      "duration" : 2881
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Лого в Хедере",
-    "uid" : "ef6543bb01dad5da",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676766865,
-      "stop" : 1593676770133,
-      "duration" : 3268
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Адрес доставки в Хедере",
-    "uid" : "e7b6a06b89210144",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676770136,
-      "stop" : 1593676773440,
-      "duration" : 3304
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Корзина в Хедере",
-    "uid" : "5ef862abee34de89",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676773443,
-      "stop" : 1593676779282,
-      "duration" : 5839
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Категории на главной",
-    "uid" : "8b2dc16b08c2c932",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676785310,
-      "stop" : 1593676808629,
-      "duration" : 23319
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверить товар на наличие и положить в корзну",
-    "uid" : "a3928641e87b5579",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676808634,
-      "stop" : 1593676818600,
-      "duration" : 9966
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Адрес доставки на главной",
-    "uid" : "db455ae2f9950ed6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676818602,
-      "stop" : 1593676826808,
-      "duration" : 8206
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Баннер на главной",
-    "uid" : "29da3a91af8a371a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593676826815,
-      "stop" : 1593676830627,
-      "duration" : 3812
+      "start" : 1593772796462,
+      "stop" : 1593772796462,
+      "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]

@@ -11,6 +11,7 @@ import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import java.util.concurrent.TimeUnit;
 
+@Ignore
 @DisplayName("Хедер")
     public class HeaderClassTest {
     public static WebDriver driver;

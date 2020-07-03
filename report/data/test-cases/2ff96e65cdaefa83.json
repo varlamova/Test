@@ -1,0 +1,50 @@
+{
+  "uid" : "2ff96e65cdaefa83",
+  "name" : "Главная",
+  "fullName" : "MainClassTest",
+  "historyId" : "2f0b266c589813d7d17d75becabd39fe",
+  "time" : {
+    "start" : 1593772796462,
+    "stop" : 1593772796462,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "MainClassTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "MainClassTest"
+  }, {
+    "name" : "suite",
+    "value" : "Главная"
+  }, {
+    "name" : "host",
+    "value" : "aaw"
+  }, {
+    "name" : "thread",
+    "value" : "15884@aaw.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ff96e65cdaefa83.json",
+  "parameterValues" : [ ]
+}

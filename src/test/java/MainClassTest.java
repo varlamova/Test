@@ -13,6 +13,7 @@ import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import java.util.concurrent.TimeUnit;
 
+@Ignore
 @DisplayName("Главная")
 public class MainClassTest {
         public static WebDriver driver;

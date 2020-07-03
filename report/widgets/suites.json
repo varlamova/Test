@@ -4,12 +4,12 @@
     "uid" : "f8e65838e6d24eb8bb51b7a93bb3317e",
     "name" : "Основные события для тест-сценариев",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
     }
   }, {
     "uid" : "06aeaa426cac36abf0a49bf0c3bdfcdc",
@@ -17,10 +17,10 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 1
     }
   }, {
     "uid" : "3fbda4e25b13f42cfd5d1f7fad802dd2",
@@ -28,10 +28,10 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     }
   } ]
 }

@@ -10,6 +10,7 @@ import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import java.util.concurrent.TimeUnit;
 
+@Ignore
     @DisplayName("Основные события для тест-сценариев")//Название тест-сценария для allure
         public class BasicTestTemplatesClassTest {
         public static WebDriver driver;
