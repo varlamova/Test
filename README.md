@@ -11,4 +11,4 @@
 
 ## Для просмотра allure-отчётов, можно пользоваться GitHub Pages
 
-Пример для данного репозитория, находится по Url - https://cotenok.github.io/Blank/report/
+Пример для данного репозитория, находится по Url - https://varlamova.github.io/Test/
